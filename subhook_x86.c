@@ -103,7 +103,8 @@ SUBHOOK_EXPORT int SUBHOOK_API subhook_disasm(void *src, int *reloc_op_offset) {
     0xF0, 0xF2, 0xF3,
     0x2E, 0x36, 0x3E, 0x26, 0x64, 0x65,
     0x66, /* operand size override */
-    0x67  /* address size override */
+    0x67,  /* address size override */
+    0x0F
   };
 
   struct opcode_info {
